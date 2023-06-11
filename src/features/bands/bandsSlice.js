@@ -12,6 +12,8 @@ const bandsSlice = createSlice({
   },
 });
 
+// actions export
 export const { bandAdded } = bandsSlice.actions;
 
+// reducer export
 export default bandsSlice.reducer;
